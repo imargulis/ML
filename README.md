@@ -49,7 +49,7 @@ Below is the list of textbooks and courses I came across.
 - [CMU 15859 Machine Learning Theory](http://www.cs.cmu.edu/~avrim/ML14/)
 - [Berkeley CS281b/Stat241b Statistical Learning Theory](https://www.stat.berkeley.edu/~bartlett/courses/2014spring-cs281bstat241b/)
 - [MIT 9.520 Statistical Learning Theory and Applications](http://www.mit.edu/~9.520/fall15/)
-
+- [Statistical Learning Theory](http://www.shivani-agarwal.net/Teaching/E0370/Aug-2011/index.html)
 
 ## Deep Learning
 Goodfellow et al. is the new classic. <br/>
@@ -91,9 +91,9 @@ For deep RL, lectures from Berkeley/CMU looks good.
 ### Textbook
 - Reinforcement Learning: An Introduction (Sutton & Barto) :sparkles:
 
-### Lecture
-- [UCL Reinforcement Learning](http://www0.cs.ucl.ac.uk/staff/d.silver/web/Teaching.html) :sparkles:
-- [Berkeley CS294 Deep Reinforcement Leanring](http://rll.berkeley.edu/deeprlcourse/) :sparkles:
+### Courses
+- [UCL Reinforcement Learning](http://www0.cs.ucl.ac.uk/staff/d.silver/web/Teaching.html) 
+- [Berkeley CS294 Deep Reinforcement Leanring](http://rll.berkeley.edu/deeprlcourse/) 
 - [CMU 10703 Deep Reinforcement Learing and Control](https://katefvision.github.io/)
 
 ### Tutorial
@@ -146,48 +146,74 @@ For multi-armed bandit, Bubeck & Cesa-Bianchi provides a good survey.
 - [ICML 2017 Real World Interactive Learning](http://hunch.net/~rwil/)
 
 
-## Statistics
-Statistics is a broad area; hence, I listed only a few of them. <br/>
-For advanced topics, lectures from Berkeley/Stanford/CMU/MIT looks really cool. <br/>
+## Topics related to Machine Learning
+Miscellaneous topics directrly related to machine learning. <br/>
 
-### Textbook (Statistical Inference)
+### Probability and Statistics
+#### Books (General)
+- Probability: Theory and Examples (Durrett)
+- Theoretical Statistics (Keener)
+- Stochastic Processes (Bass)
+- Probability and Statistics Cookbook (Vallentin)
+
+#### Books (Statistical Inference)
 - All of Statistics (Wasserman)
 - Computer Age Statistical Inference (Efron & Hastie) :sparkles:
 - Time Series Analysis and Its Applications: With R Examples (Shumway & Stoffer)
 
-### Textbook (Nonparametrics)
+#### Books (Nonparametrics)
 - All of Nonparametric Statistics (Wasserman)
 - Introduction to Nonparametric Estimation (Tsybakov)
 - Gaussian Process and Machine Learning (Rasmussen & Williams) :sparkles:
 - Bayesian Nonparametrics (Ghosh & Ramamoorthi) :sparkles:
 
-### Textbook (Advanced Topics)
+#### Books (High Dimensions and Asymptotics)
 - High-Dimensional Statistics: A Non-Asymptotic Viewpoint (Wainwright) :sparkles:
 - Statistics for High-Dimensional Data (Bühlmann & van de Geer)
 - Asymptotic Statistics (van der Vaart)
 - Empirical Processes in M-Estimation (van der Vaart)
 
+#### Courses 
+
 ### Lecture
+- [Berkeley Stat281b Statistical Learning Theory](https://people.eecs.berkeley.edu/~bartlett/courses/281b-sp08/)
 - [Berkeley Stat210a Theoretical Statistics I](https://www.stat.berkeley.edu/~wfithian/courses/stat210a/)
+- [Berkeley Stat210b Theoretical Statistics II](https://www.stat.berkeley.edu/~bartlett/courses/2013spring-stat210b/)
 - [Berkeley Stat210b Theoretical Statistics II](https://people.eecs.berkeley.edu/~jordan/courses/210B-spring17/)
 - [Stanford Stat300a Theory of Statistics](https://web.stanford.edu/~lmackey/stats300a/)
 - [Stanford CS369m Algorithms for Massive Data Set Analysis](http://cs.stanford.edu/people/mmahoney/cs369m/)
 - [CMU 36755 Advanced Statistical Theory I](http://www.stat.cmu.edu/~arinaldo/36755/F16/)
 - [MIT 18.S997 High-Dimensional Statistics](https://ocw.mit.edu/courses/mathematics/18-s997-high-dimensional-statistics-spring-2015/)
+- [UCLA Theoretical Statistics](http://www.stat.ucla.edu/~arash.amini/teaching/stat200c/notes/)
 
+### Linear Algebra
+#### Books
+- Linear Algebra (Hoffman & Kunze)
+- Matrix Analysis (Horn & Johnson)
+- Matrix Computations (Golub & Van Loan)
+- The Matrix Cookbook (Petersen & Pedersen)
+#### Courses
 
-## Topics in Machine Learning
-Miscellaneous topics related to machine learning. <br/>
+### Large Deviations
+#### Books
+- Concentration Inequalities and Martingale Inequalities (Chung & Lu)
+- An Introduction to Matrix Concentration Inequalities (Tropp)
+
+#### Courses
 
 ### Information Theory
+#### Books
 - Elements of Information Theory (Cover & Thomas)
 - Information Theory, Inference, and Learning Algorithms (MacKay)
+
+#### Courses
+- [Information Theory: 2-semesters course](http://j.ee.washington.edu/~bilmes/classes/ee514a_fall_2013/#lectures)
 
 ### Network Science
 - Networks, Crowds, and Markets (Easley & Kleinberg)
 - Social and Economic Networks (Jackson)
 
-### Markov Chain
+### Random Processes 
 - Markov Chains (Norris)
 - Markov Chains and Mixing Times (Levin et al.)
 
@@ -216,25 +242,6 @@ Miscellaneous topics related to machine learning. <br/>
 ### Tutorial
 - [ICML 2017 Interpretable Machine Learning](http://people.csail.mit.edu/beenkim/icml_tutorial.html)
 - [ICML 2017 Robustness Meets Algorithms (and Vice-Versa)](http://people.csail.mit.edu/moitra/robusttutorial.html)
-
-
-## Math Backgrounds
-
-### Probability and Statistics
-- Probability: Theory and Examples (Durrett)
-- Theoretical Statistics (Keener)
-- Stochastic Processes (Bass)
-- Probability and Statistics Cookbook (Vallentin)
-
-### Linear Algebra
-- Linear Algebra (Hoffman & Kunze)
-- Matrix Analysis (Horn & Johnson)
-- Matrix Computations (Golub & Van Loan)
-- The Matrix Cookbook (Petersen & Pedersen)
-
-### Large Deviations
-- Concentration Inequalities and Martingale Inequalities (Chung & Lu)
-- An Introduction to Matrix Concentration Inequalities (Tropp)
 
 
 ## Blogs and Podcasts
