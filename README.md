@@ -4,69 +4,51 @@ This repo contains references to various resources covering topics in machine le
 By no means this is an exhaustive list. In order to keep it up-to-date I'll try to 
 review it once in while.
 
-
-## Courses:
-### CS 20SI: TensorFlow for Deep Learning Research.  
-Detailed syllabus and lecture notes can be found here http://cs20si.stanford.edu 
-
-### CS 224n: Natural Language Processing with Deep Learning.
-Detailed syllabus, lecture notes and videos as well as
-rich supplementary material can be found here http://web.stanford.edu/class/cs224n/
-
-### CS 231n: Convolutional Neural Networks for Visual Recognition
-Detailed syllabus, lecture notes and videos as well as
-rich supplementary material can be found here http://cs231n.stanford.edu/
-
-
 ## Misc:
 
 ### A survey on Automatic Differentiation:
 https://arxiv.org/pdf/1502.05767.pdf
 
 ## Table of Contents
-- [Beginner's Guide](#beginners-guide)
-- [Machine Learning](#machine-learning)
+- [Intro Machine Learning](#machine-learning)
 - [Deep Learning](#deep-learning)
 - [Generative Model](#generative-model)
 - [Reinforcement Learning](#reinforcement-learning)
-- [Graphical Model](#graphical-model)
+- [Probabilistic Graphical Model](#graphical-model)
 - [Optimization](#optimization)
-- [Learning Theory](#learning-theory)
 - [Statistics](#statistics)
 - [Topics in Machine Learning](#topics-in-machine-learning)
-- [Math Backgrounds](#math-backgrounds)
-- [Blogs](#blogs)
+- [Math Background](#math-backgrounds)
+- [Blogs and Podcasts](#blogs)
 
 
-## Beginner's Guide
+## Intro to Machine Learning
+There are many ML resources, which position themselves as introductory<br/>
+Below is the list of textbooks and courses I came across.
 
-**Must Read**
-- Machine Learning: A Probabilistic Perspective (Murphy)
-- Deep Learning (Goodfellow et al.)
-- Reinforcement Learning: An Introduction (Sutton & Barto)
-
-**Recommended**
-- Convex Optimization (Boyd & Vandenberghe)
-- Graphical Models, Exponential Families, and Variational Inference (Wainwright & Jordan)
-- Learning from Data (Abu-Mostafa) *-> for whom interested in learning theory*
-
-
-## Machine Learning
-There are many ML books, but most of them are encyclopedic. <br/>
-I recommend to take a course using Murphy or Bishop book.
-
-### Textbook
-- Machine Learning: A Probabilistic Perspective (Murphy) :sparkles:
-- Pattern Recognition and Machine Learning (Bishop) :sparkles:
+### Textbooks
+- Machine Learning: A Probabilistic Perspective (Murphy) 
+- Pattern Recognition and Machine Learning (Bishop) 
 - The Elements of Statistical Learning (Hastie et al.)
 - Pattern Classification (Duda et al.)
 - Bayesian Reasoning and Machine Learning (Barber)
+- Learning from Data (Abu-Mostafa) :sparkles:
+- Foundations of Machine Learning (Mohri et al.)
+- An Introduction to Computational Learning Theory (Kearns & Vazirani) 
 
-### Lecture
+### Courses (with videos)
+- [Understanding Machine Learning: An introductory course in Machine Learning by Shai Shalev-Shwartz. 
+   The course is in Hebrew and is based on the book with the same title.](http://www.cs.huji.ac.il/~shais/IML2014.html)
+- [Caltech Learning from Data](https://work.caltech.edu/telecourse.html) :sparkles:   
 - [Stanford CS229 Machine Learning](http://cs229.stanford.edu) :sparkles:
 - [CMU 10701 Mahine Learning](http://www.cs.cmu.edu/~tom/10701_sp11/)
 - [CMU 10702 Statistical Machine Learning](http://www.stat.cmu.edu/~larry/=sml/)
 - [Oxford Machine Learning](https://www.cs.ox.ac.uk/people/nando.defreitas/machinelearning/)
+
+### Other courses
+- [CMU 15859 Machine Learning Theory](http://www.cs.cmu.edu/~avrim/ML14/)
+- [Berkeley CS281b/Stat241b Statistical Learning Theory](https://www.stat.berkeley.edu/~bartlett/courses/2014spring-cs281bstat241b/)
+- [MIT 9.520 Statistical Learning Theory and Applications](http://www.mit.edu/~9.520/fall15/)
 
 
 ## Deep Learning
@@ -76,18 +58,19 @@ For vision and NLP, Stanford lectures would be helpful.
 ### Textbook
 - Deep Learning (Goodfellow et al.) :sparkles:
 
-### Lecture (Practice)
-- [Deep Learning book](http://www.deeplearningbook.org/lecture_slides.html) :sparkles:
+### Courses (with videos)
 - [Stanford CS231n Convolutional Neural Networks for Visual Recognition](http://cs231n.stanford.edu) :sparkles:
-- [Stanfrod CS224d Deep Learning for Natural Language Processing](http://cs224d.stanford.edu)
+- [Stanfrod CS224d Deep Learning for Natural Language Processing](http://web.stanford.edu/class/cs224n/)
+
+### Courses (Practice)
+- [TensorFlow for Deep Learning Research](http://cs20si.stanford.edu )
+- [Deep Learning book](http://www.deeplearningbook.org/lecture_slides.html) :sparkles:
 - [Stanfrod CS224s Spoken Language Processing](http://web.stanford.edu/class/cs224s/)
 - [Oxford Deep Natural Language Processing](https://github.com/oxford-cs-deepnlp-2017/lectures)
 - [CMU 11747 Neural Networks for NLP](http://phontron.com/class/nn4nlp2017/index.html)
-
-### Lecture (Theory)
 - [Stanford Stat385 Theories of Deep Learning](https://stats385.github.io/)
 
-### Tutorial
+### Tutorials
 - [ICML 2017 Sequence-To-Sequence Modeling with Neural Networks](https://sites.google.com/view/seq2seq-icml17)
 
 
@@ -117,18 +100,13 @@ For deep RL, lectures from Berkeley/CMU looks good.
 - [ICML 2017 Deep Reinforcement Learning, Decision Making, and Control](https://sites.google.com/view/icml17deeprl)
 
 
-## Graphical Model
-Koller & Friedman is comprehensive, but too encyclopedic. <br/>
-I recommend to take an introductory course using Koller & Friedman book. <br/>
+## Probabilistic Graphical Model
 
-Wainwright & Jordan only focuses on variational inference, <br/>
-but it gives really good intuition for probabilistic models.
-
-### Textbook
+### Textbooks
 - Probabilistic Graphical Models: Principles and Techniques (Koller & Friedman)
 - Graphical Models, Exponential Families, and Variational Inference (Wainwright & Jordan) :sparkles:
 
-### Lecture
+### Courses
 - [Stanford CS228 Probabilistic Graphical Models](http://cs.stanford.edu/~ermon/cs228/index.html)
 - [CMU 10708 Probabilistic Graphical Models](http://www.cs.cmu.edu/~epxing/Class/10708/) :sparkles:
 
@@ -154,30 +132,15 @@ Nocedal & Wright more concentrates on optimization.
 - [ICML 2017 Recent Advances in Stochastic Convex and Non-Convex Optimization](http://people.csail.mit.edu/zeyuan/topics/icml-2017)
 
 
-## Learning Theory
-
-For learning theory, Kearns & Vazirani is the classic; but it's too old-fashined. <br/>
-Abu-Mostafa is a good introductory book, and I think it's enough for most people.
+## Online Learning Theory
 
 For online learning, Cesa-Bianchi & Lugosi is the classic. <br/>
 For multi-armed bandit, Bubeck & Cesa-Bianchi provides a good survey.
 
-### Textbook (Learning Theory)
-- Learning from Data (Abu-Mostafa) :sparkles:
-- Foundations of Machine Learning (Mohri et al.)
-- An Introduction to Computational Learning Theory (Kearns & Vazirani) 
 
 ### Textbook (Online Learning)
 - Prediction, Learning, and Games (Cesa-Bianchi & Lugosi)
 - Regret Analysis of Stochastic and Nonstochastic Multi-armed Bandit Problems (Bubeck & Cesa-Bianchi)
-
-### Lecture
-- [Caltech Learning from Data](https://work.caltech.edu/telecourse.html) :sparkles:
-- [CMU 15859 Machine Learning Theory](http://www.cs.cmu.edu/~avrim/ML14/)
-- [Berkeley CS281b/Stat241b Statistical Learning Theory](https://www.stat.berkeley.edu/~bartlett/courses/2014spring-cs281bstat241b/)
-- [MIT 9.520 Statistical Learning Theory and Applications](http://www.mit.edu/~9.520/fall15/)
-- [Understanding Machine Learning: An introductory course in Machine Learning by Shai Shalev-Shwartz. 
-   The course is in Hebrew and is based on the book with the same title.](http://www.cs.huji.ac.il/~shais/IML2014.html)
 
 ### Tutorial
 - [ICML 2017 Real World Interactive Learning](http://hunch.net/~rwil/)
@@ -215,7 +178,6 @@ For advanced topics, lectures from Berkeley/Stanford/CMU/MIT looks really cool. 
 
 ## Topics in Machine Learning
 Miscellaneous topics related to machine learning. <br/>
-There are much more subfields, but I'll not list them all.
 
 ### Information Theory
 - Elements of Information Theory (Cover & Thomas)
@@ -258,7 +220,7 @@ There are much more subfields, but I'll not list them all.
 
 ## Math Backgrounds
 
-### Probability
+### Probability and Statistics
 - Probability: Theory and Examples (Durrett)
 - Theoretical Statistics (Keener)
 - Stochastic Processes (Bass)
@@ -275,7 +237,7 @@ There are much more subfields, but I'll not list them all.
 - An Introduction to Matrix Concentration Inequalities (Tropp)
 
 
-## Blogs
+## Blogs and Podcasts
 
 - [Distill](http://distill.pub/)
 - [Wild ML](http://www.wildml.com/)
@@ -287,7 +249,6 @@ There are much more subfields, but I'll not list them all.
 - [OpenAI Blog](https://blog.openai.com/)
 - [FAIR Blog](https://research.fb.com/blog/)
 - [BAIR Blog](http://bair.berkeley.edu/blog/)
-- [Distill.pub](https://distill.pub/)
 - [Columbia ML Seminar](https://casmls.github.io/)
 - [Mathematical Coffees](https://mathematical-coffees.github.io/)
 - [Lunit Tech Blog (Korean)](https://blog.lunit.io/category/paper-review/)
@@ -307,3 +268,8 @@ There are much more subfields, but I'll not list them all.
 - [I’m a bandit](https://blogs.princeton.edu/imabandit/)
 - [Bandit Algorithms](http://banditalgs.com/)
 - [Sebastian Raschka](https://sebastianraschka.com/blog/index.html)
+
+### Podcasts
+- [The Talking Machines](http://www.thetalkingmachines.com/)
+- [This week in Machine Learning&AI](https://twimlai.com/shows/)
+- [Data Skeptic](http://dataskeptic.com/)
